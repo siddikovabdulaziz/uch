@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.table {
+
+    margin: 30px auto;
+    border-collapse: collapse;
+    border-radius: 7px;
+    background: white;
+    box-shadow: 0 0 15px #0002;
+}
+
+.table th,
+.table td {
+
+    padding: 20px 80px;
+
+}
+
+.table thead {
+    text-align: left;
+}
+
+.btn {
+    transform: scale(.90);
+    opacity: 7;
+    height: 30px;
+    width: 90px;
+    color: white;
+    background: greenyellow;
+    border: none;
+    border-radius: 5px;
+}
+
+.table tbody tr:hover {
+    color: blue;
+}
+
+.table tbody tr:nth-child(odd) {
+    background: #f2f2f2;
+
+}
+
+
+
+.jurnal {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 55px #0002;
+
+}
+
+.jurnal th,
+.jurnal td {
+    padding: 20px 80px;
+}
+
+.jurnal thead {
+    background: blue;
+    color: white;
+}
+
+.jurnal tbody tr:hover {
+    color: blue;
+}
+
+.jurnal tbody td:nth-child(odd) {
+    background: #f2f2f2;
+
+}
